@@ -1,8 +1,11 @@
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
-public class Tester {
+public class Driver {
+
+    private static final Logger logger = Logger.getLogger(Driver.class.getName());
 
     public static void main(String[] args) {
-        System.out.println("Tester.java");
+        logger.log(Level.INFO, "Driver.java");
     }
-    
 }
